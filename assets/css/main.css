@@ -1,0 +1,42 @@
+.container {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+    font-size: x-large;
+    color: #aaa;
+    margin: 20px 0;
+}
+
+.cutted {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.style-box {
+    position: relative;
+}
+
+.style-box>.copy {
+    position: absolute;
+    width: 20%;
+    padding: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    font-size: large;
+}
+
+.style-box>.cutted {
+    border-right: none;
+    width: 80%
+}
+
+#result {
+    padding-right: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
